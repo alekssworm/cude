@@ -43,7 +43,7 @@ try:
         ax.set_ylim([0, 1])
         ax.set_zlim([0, 1])
 
-        # Обновляем график
+        # Обновляем 
         plt.draw()
         plt.pause(0.01)
 except KeyboardInterrupt:
